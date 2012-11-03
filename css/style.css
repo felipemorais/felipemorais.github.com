@@ -1,0 +1,61 @@
+/* CSS reset */
+*{margin:0;padding:0;}
+fieldset,img{border:0;}
+input{border:1px solid #b0b0b0;padding:3px 5px 4px;color:#979797;width:190px;}
+body{background:#f7f7f7 url(../images/pattern.png);color:#000;font-family:'Georgia', 'Trebuchet MS', serif;font-size:12px;}
+ul{list-style-position: inside;}
+p,li{margin-bottom:5px;}
+a.more_link{color:#EF1010;text-decoration:none;font-size:10px;text-transform:uppercase;font-family:'Droid Sans', Arial, sans-serif;}
+a.more_link:hover{border-bottom:1px dotted #ddd;}
+
+p.subline{line-height:20px;font-family:'Droid Sans', Arial, sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:1px;}
+
+.page{margin:10px;overflow:hidden;}
+
+.box{display:inline-block;margin:5px;background:#fff;width:300px;vertical-align:top;-moz-box-shadow:1px 1px 3px rgba(0,0,0,0.3);-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.3);box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+	-webkit-transition: all .8s ease;
+}
+.box-inside{margin:20px;cursor:pointer;}
+.box .title{font-size:15px;text-transform:uppercase;background:#222;color:white;padding:2px 5px;}
+.box .intro{font-style:italic;line-height:20px;}
+.box .subline{margin:10px 0;}
+.box .box-details{height:0;overflow:hidden;-webkit-transition: all .3s ease;}
+
+.expanded .box-details{height:300px;margin:20px;overflow:auto;}
+.header{background:#222;color:#fff;margin:5px;padding:20px;vertical-align:top;-moz-box-shadow:1px 1px 3px rgba(0,0,0,0.3);-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.3);box-shadow:1px 1px 3px rgba(0,0,0,0.3);}
+.header h1,.header .subline{display:inline;padding-right: 10px;}
+.header h1 span{color:#ef1010;}
+
+.fancy{font-family:'Ovo', 'Georgia', Baskerville, "Hoefler Text", Garamond, serif;}
+.header .fancy{font-size:20px;}
+.box .fancy{font-size:10px;}
+
+
+
+/* Footer Style */
+.reference{
+	position:relative;
+	width:100%;
+	height:25px;
+	line-height:24px;
+	font-size:13px;
+	background:#000;
+	opacity:0.9;
+	text-transform:uppercase;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	z-index:4;
+}
+.reference a{
+	padding:5px 10px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+	text-align:right;
+}
+.reference a:hover{
+	color:#fff;
+}
+.reference span.right_ab{
+	position:absolute;
+	right:4px;
+}
