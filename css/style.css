@@ -19,9 +19,7 @@ p.subline{line-height:20px;font-family:'Droid Sans', Arial, sans-serif;font-size
 .box .title{font-size:15px;text-transform:uppercase;background:#222;color:white;padding:2px 5px;}
 .box .intro{font-style:italic;line-height:20px;}
 .box .subline{margin:10px 0;}
-.box .box-details{height:0;overflow:hidden;-webkit-transition: all .3s ease;}
-
-.expanded .box-details{height:300px;margin:20px;overflow:auto;}
+.box .box-details{overflow:hidden;max-height:300px;margin:20px;overflow:auto;}
 .header{background:#222;color:#fff;margin:5px;padding:20px;vertical-align:top;-moz-box-shadow:1px 1px 3px rgba(0,0,0,0.3);-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.3);box-shadow:1px 1px 3px rgba(0,0,0,0.3);}
 .header h1,.header .subline{display:inline;padding-right: 10px;}
 .header h1 span{color:#ef1010;}
